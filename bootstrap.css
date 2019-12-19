@@ -1,19 +1,23 @@
 /**{
     box-sizing: border-box; 
-}
+}*/
 
 
-/*body {
+body {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; 
-    color: #ffffff;
+    /*color: #ffffff;
     border-color: #ddddd;
     margin-left:auto;
     margin-right: auto;
     width: auto;
     padding:0;
-    margin:0;
-    
-}*/
+    margin:0;*/    
+}
+
+.container {
+
+}
+
 
 .mylogo {
     
@@ -23,6 +27,7 @@
 h1 {
     background-color: #4aaaa5;
     padding-bottom: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .navbar {
     background-color: #ffffff;
@@ -44,6 +49,12 @@ h1 {
 .card-title {
     color: #4aaaa5;
     border-bottom: 2px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    color: #777777;
+
 }
 
 #topheader {
@@ -165,9 +176,9 @@ p {
 footer {
     /*position:sticky; /* need to make footer sticky*/
     background: #666666;
-    /*width: auto;
+    /*width: auto;*/
     text-align: center;
-    height: 40px;
+    /*height: 40px;
     margin-bottom: auto 0;
     padding-top: 30px;
     padding-bottom: 20px;  
@@ -183,7 +194,7 @@ footer {
     margin-left: 20px;
 }*/
 
-input[type=text], select {
+/*input[type=text], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
