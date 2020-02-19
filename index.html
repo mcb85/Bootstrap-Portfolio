@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <title>Mariana Bromfield Portfolio</title>
     <style>
@@ -19,73 +19,91 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-fixed-top">
+        <a class="navbar-brand text-white" href="index.html">Mariana Bromfield</a>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top my-logo" role="navigation">
-        <h1 class="text-white mx-auto mb-0">Mariana Bromfield</h1>
+        <button class="navbar-toggler collapsed text-white" type="button" data-toggle="collapse"
+            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">Menu</span>
+        </button>
 
-        <ul class="nav justify-content-end bg-white">
-            <li class="nav-item">
-                <a class="nav-link active text-white" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="contact.html">Contact</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarCollapse" style>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
+    <main role="main" class="container">
+        <div class="container-fluid">
+            <div class="row" id="about-me">
+                <div class="col-sm-12">
+                    <div class="card mx-auto mt-5 mb-5">
+                        <div class="card-body">
+                            <h2 class="card-title">About Me</h2>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <img id="profile" src="mc.jpg" alt="Mariana Bromfield" class="img-thumbnail">
+                                </div>
 
+                                <div class="col-sm-8">
+                                    <p class="card-text text-left">I am Mariana Bromfield, a school psychologist,
+                                        looking to become a
+                                        web developer.
+                                        I am currently "employed" as a stay-at-home mommy (best job ever), but I've
+                                        worked
+                                        in the public school system for 8 years as a school psychologist. I completed my
+                                        Bachelors of Science in
+                                        Psychology at the University of Central Florida. I received a Masters of
+                                        Science, as
+                                        well as an Education
+                                        Specialist degree (both in School Psychology) from Florida State University.</p>
 
-    <div class="container-fluid">
-        <div class="row"  id="about-me">
-            <div class="col-sm-12">
-                <div class="card mx-auto mt-5 mb-5" style="width: 50rem;">
-                    <div class="card-body">
-                        <h2 class="card-title">About Me</h2>
-                        <div class="row">
-                            <divgi class="col-sm-4">
-                                <img id="profile" src="mc.jpg" alt="Mariana Bromfield" class="img-thumbnail">
-                            </divgi>
+                                    <p class="card-text text-left">I was born in the Dominican Republic, but grew up in
+                                        New York City
+                                        and Central Florida.
+                                        I currently live in Winter Garden, FL. My hobbies include going to the movies,
+                                        reading novels, and traveling. I love spending time with my family.</p>
 
-                            <div class="col-sm-8">
-                                <p class="text-left">I am Mariana Bromfield, a school psychologist, looking to become a
-                                    web developer.
-                                    I am currently "employed" as a stay-at-home mommy (best job ever), but I've worked
-                                    in the public school system for 8 years as a school psychologist. I completed my
-                                    Bachelors of Science in
-                                    Psychology at the University of Central Florida. I received a Masters of Science, as
-                                    well as an Education
-                                    Specialist degree (both in School Psychology) from Florida State University.</p>
-
-                                <p class="text-left">I was born in the Dominican Republic, but grew up in New York City
-                                    and Central Florida.
-                                    I currently live in Winter Garden, FL. My hobbies include going to the movies,
-                                    reading novels, and traveling. I love spending time with my family.</p>
+                                    <p class="card-text text-left">I am currently enrolled in the UCF Coding Bootcamp.
+                                        I am super excited for this new career path!</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <p class="text-left">I am currently enrolled in the UCF Coding Bootcamp.
-                                    I am super excited for this new career path!</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
-
-
-
-                <footer class=" footer mt-auto py-3 text-white">
-                    <div class="container">
-                        <span><a class="text-white text-left" href="BromfieldResume.pdf" target="blank">
-                                <h5>Resume
-                            </a></h5></span>
-                    </div>
-                </footer>
-
             </div>
+        </div>
+    </main>
+
+
+    <footer class="footer mt-auto py-3 text-white">
+        <div class="container">
+            <span><a class="text-white text-left" href="BromfieldResume.pdf" target="blank">
+                    <h5>Resume
+                </a></h5></span>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
