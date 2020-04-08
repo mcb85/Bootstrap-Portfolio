@@ -61,7 +61,7 @@ footer {
     border-top: 8px solid #4aaaa5;
     background: #666666;
     width: auto;
-    height: 50px;
+    min-height: 80px;
     margin-bottom: auto 0;
     margin-left: 0;
     margin-right: 0;
@@ -79,7 +79,7 @@ body {
 
 footer,
 .push {
-    height: 130px;
+    height: 200px;
 }
 
 .text-block {
